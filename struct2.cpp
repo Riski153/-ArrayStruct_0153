@@ -23,10 +23,10 @@ int main() {
     cin >> mhs.nama;
 
     cout << "Alamat Mahasiswa (Desa) : ";
-    cin >> mhs.alamat;
+    cin >> mhs.alamat.desa;
 
     cout << "Alamat Mahasiswa (Kota) : ";
-    cin >> mhs.alamat;
+    cin >> mhs.alamat.kota;
 
     cout << "Umur Mahasiswa : ";
     cin >> mhs.umur;
