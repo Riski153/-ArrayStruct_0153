@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
 
+struct DetailAlamat { // addressDetail
+    string desa; // village
+    string kota; // city
+};
 
 struct Mahasiswa {
     string NIM;
     string nama;
-    string alamat;
+    DetailAlamat ;
     int umur;
 };
 
