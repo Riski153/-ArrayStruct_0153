@@ -19,7 +19,7 @@ int main() {
     Mahasiswa mhs;
 
     cout << "Nomor Mahasiswa : ";
-    cin >> mhs.NIM;
+  getline(cin, mhs.NIM);
 
     cout << "Nama Mahasiswa : ";
     cin >> mhs.nama;
@@ -38,4 +38,6 @@ int main() {
     cout << "\n Nama : " << mhs.nama;
     cout << "\n Alamat : " << mhs.alamat.desa << ", " << mhs.alamat.kota;
     cout << "\n Umur : " << mhs.umur;
+
+    return 0
 }
